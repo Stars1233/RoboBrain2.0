@@ -257,7 +257,7 @@ Prediction: (as an example 2: sofa)
 ### Option 1: For Megatron User (Highly Recommended)
 
 <div align="center">
-<img src="./assets/logo_flagscale.png" width="250"/>
+<img src="../assets/logo_flagscale.png" width="250"/>
 </div>
 
 We adopted the distributed training framework [FlagScale](https://github.com/FlagOpen/FlagScale) developed by the ***Framework R&D team of BAAI*** for training. The training can be launched in the following steps:
@@ -272,7 +272,7 @@ RoboBrain2.0 is also compatible with the official training code for Qwen2.5VL. P
 ## 🔍 Evaluation
 
 <div align="center">
-<img src="./assets/logo_flageval.png" width="300"/>
+<img src="../assets/logo_flageval.png" width="300"/>
 </div>
 
 We adopted the flexible evaluation framework [FlagEvalMM](https://github.com/flageval-baai/FlagEvalMM) developed by the ***FlagEval team of BAAI*** for comprehensive multimodal model evaluation. The evaluation can be launched in the following steps:
