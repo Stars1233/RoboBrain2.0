@@ -2,11 +2,10 @@
 <img src="./assets/logo2.png" width="500"/>
 </div>
 
-# RoboBrain 2.5: Depth in Sight, Time in Mind. 
-
+<h1 align="center">RoboBrain 2.5: Depth in Sight, Time in Mind. </h1>
 
 <p align="center">
-        </a>&nbsp&nbsp⭐️ <a href="https://superrobobrain.github.io/">Project</a></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/collections/BAAI/robobrain25/">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="#">ModelScope</a>&nbsp&nbsp 
+        </a>&nbsp&nbsp⭐️ <a href="https://superrobobrain.github.io/">Project Page</a></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/collections/BAAI/robobrain25/">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="#">ModelScope</a>&nbsp&nbsp 
 
 </p>
 <p align="center">
@@ -21,10 +20,10 @@
         </a>&nbsp&nbsp🔥 <a href="https://zhoues.github.io/RoboTracer/">RoboTracer</a>: Research on Native 3D Spatial Reasoning Capability for <strong>RoboBrain 2.5</strong>.
 </p>
 <p align="center">
-        </a>&nbsp&nbsp🎯 <a href="https://flagopen.github.io/RoboOS/">RoboOS</a>: An Efficient Open-Source Multi-Robot Coordination System for RoboBrain.
+        </a>&nbsp&nbsp🎯 <a href="https://flagopen.github.io/RoboOS/">RoboOS</a>: An Efficient Open-Source Multi-Robot Coordination System for RoboBrain 2.0.
 </p>
 <p align="center">
-</a>&nbsp&nbsp⭐️ <a href="https://github.com/tanhuajie/Reason-RFT">Reason-RFT</a>: Core Post-Training Strategy for Embodied Visual Reasoning in RoboBrain2.0.
+</a>&nbsp&nbsp⭐️ <a href="https://github.com/tanhuajie/Reason-RFT">Reason-RFT</a>: Core Post-Training Strategy for Embodied Visual Reasoning in RoboBrain 2.0.
 </p>
 <p align="center">
 </a>&nbsp&nbsp🌍 <a href="https://github.com/FlagOpen/RoboBrain">RoboBrain 1.0</a>: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete.
@@ -56,9 +55,9 @@ In particular, it supports key real-world embodied intelligence capabilities, in
 </div>
 
 ## 🗞️ News
-- **`2026-01-09`**: 🤗 We released the **RoboBrain 2.5-8B** checkpoints on Hugging Face: [RoboBrain 2.5-8B-NV](https://huggingface.co/BAAI/RoboBrain2.5-8B-NV) and [RoboBrain 2.5-8B-MT](https://huggingface.co/BAAI/RoboBrain2.5-8B-MT). The two variants share the same architecture and training data with similar performance, but were trained on different GPU clusters: ***NV*** on an NVIDIA GPU cluster, and ***MT*** on a Moore Threads GPU cluster.
-- **`2025-12-30`**: 🔥 We released [**Robo-Dopamine**](https://robo-dopamine.github.io/)，a deep research on Dense Temperal Value Estimation for **RoboBrain 2.5**.
-- **`2025-12-16`**: 🔥 We released [**RoboTracer**](https://zhoues.github.io/RoboTracer/)，a deep research on Native 3D Spatial Reasoning for **RoboBrain 2.5**.
+- **`2026-01-09`**: 🤗 We released the **RoboBrain 2.5-8B** checkpoints on Hugging Face: [RoboBrain 2.5-8B-NV](https://huggingface.co/BAAI/RoboBrain2.5-8B-NV) and [RoboBrain 2.5-8B-MT](https://huggingface.co/BAAI/RoboBrain2.5-8B-MT). The two variants share the same architecture and training data with similar performance, but were trained on different clusters: ***NV*** on NVIDIA GPU cluster, and ***MT*** on Moore-Threads GPU cluster.
+- **`2025-12-30`**: 🔥 We released [**Robo-Dopamine**](https://robo-dopamine.github.io/), a deep research on Dense Temperal Value Estimation Capability for **RoboBrain 2.5**.
+- **`2025-12-16`**: 🔥 We released [**RoboTracer**](https://zhoues.github.io/RoboTracer/), a deep research on Native 3D Spatial Reasoning for **RoboBrain 2.5**.
 - **`2025-09-29`**: 🤖 We released a unified cross-embodiment VLA model [RoboBrain-X0-Preview](https://github.com/FlagOpen/RoboBrain-X0) based on RoboBrain 2.0 (3B version) on **CoRL 2025**.
 - **`2025-09-18`**: 🔥 [**Reason-RFT**](https://arxiv.org/abs/2503.20752) (Core Post-Training Strategy for RoboBrain2.0) gets accepted to **NeurIPS 2025**.
 - **`2025-07-23`**: 🤗 [RoboBrain 2.0-3B](https://huggingface.co/BAAI/RoboBrain2.0-3B) model checkpoint has been also released in Huggingface.
@@ -82,15 +81,14 @@ In particular, it supports key real-world embodied intelligence capabilities, in
 
 ## 🚀 Key Highlights
 
-### 1. Comprehensive Upgrade in 3D Spatial Reasoning
+### 1. Comprehensive Upgrade in ✨ Native 3D Spatial Reasoning ✨ 
 Compared to version 2.0, **RoboBrain-2.5** achieves a leap in spatial perception and reasoning capabilities:
 *   **From 2D to 3D:** Upgraded from predicting coordinate points on 2D images to predicting coordinate points with depth information in **3D space** (3D Spatial Referring).
 *   **Relative to Absolute:** Evolved from understanding relative spatial relationships to measuring **absolute 3D spatial metric information** (3D Spatial Measuring). The model can comprehend precise physical constraint instructions (e.g., "hovering 1-5 cm above").
 *   **Point to Trace:** Advanced from predicting a single target point for pick-and-place to predicting a **series of key points** that describe the complete manipulation process (3D Spatial Trace), naturally possessing spatial planning capabilities with 3D absolute metrics.
 
 
-
-### 2. Breakthrough in Temporal Value Prediction
+### 2. Breakthrough in ✨ Dense Temporal Value Estimation ✨ 
 **RoboBrain-2.5** makes significant progress in temporal modeling by constructing a General Reward Model (GRM):
 *   **Dense Progress Prediction:** Capable of multi-granularity task progress prediction across different tasks, viewpoints, and embodiments.
 *   **Execution State Estimation:** Understands task goals and estimates various states during execution (e.g., success, failure, error occurrence).
@@ -129,7 +127,7 @@ pip install -r requirements.txt
 ```
 
 
-## 💡 Simple Inference
+## 💡 Quickstart
 
 ### 1. Usage for General VQA
 ```python
