@@ -184,6 +184,8 @@ prompt = "Identify spot within the vacant space that's between the two mugs"
 image = "./assets/demo/pointing.jpg"
 
 # Visualization results will be saved to ./result, if `plot=True`.
+# Output is formatted as a list of tuples, i.e., [(x1, y1, d1), (x2, y2, d2), ...], 
+# # where each tuple contains the x and y coordinates and the depth of the point.
 pred = model.inference(prompt, image, task="pointing", plot=True, do_sample=True)
 print(f"Prediction:\n{pred}")
 ```
@@ -221,7 +223,7 @@ model = UnifiedInference("BAAI/RoboBrain2.5-8B-NV")
 prompt = "reach for the banana on the plate"
 image = "./assets/demo/trajectory.jpg"
 
-# Visualization results will be saved to ./result, if `plot=True`.
+# Visualization results will be saved to ./result, if `plot=True`. Model 
 pred = model.inference(prompt, image, task="trajectory", plot=True, do_sample=False)
 print(f"Prediction:\n{pred}")
 ```
