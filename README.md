@@ -26,6 +26,9 @@
 </a>&nbsp&nbsp⭐️ <a href="https://github.com/tanhuajie/Reason-RFT">Reason-RFT</a>: Core Post-Training Strategy for Embodied Visual Reasoning in RoboBrain 2.0.
 </p>
 <p align="center">
+</a>&nbsp&nbsp🌍 <a href="https://superrobobrain.github.io/robobrainv2/index.html">RoboBrain 2.0</a>: 2.0 version of RoboBrain. See Better. Think Harder. Do Smarter.
+</p>
+<p align="center">
 </a>&nbsp&nbsp🌍 <a href="https://github.com/FlagOpen/RoboBrain">RoboBrain 1.0</a>: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete.
 </p>
 
@@ -328,6 +331,7 @@ If you find this project useful, welcome to cite us.
     year={2025}
 }
 ```
+
 
 
 
