@@ -75,6 +75,7 @@ In particular, it supports key real-world embodied intelligence capabilities, in
 - [x] Release model checkpoint for RoboBrain 2.0-32B
 - [x] Release quick inference example for RoboBrain 2.0
 - [x] Release training and evaluation codes for RoboBrain 2.0
+- [ ] Release model checkpoint for RoboBrain 2.5-3B
 - [x] Release model checkpoint for RoboBrain 2.5-8B
 - [ ] Release model checkpoint for RoboBrain 2.5-32B
 
