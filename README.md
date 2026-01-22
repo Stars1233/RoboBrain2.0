@@ -9,7 +9,7 @@
 
 </p>
 <p align="center">
-        </a>&nbsp&nbsp📖 <a href="#">Wisemodel</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://arxiv.org/abs/2507.02029"> 2.0 Technical Report</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="./assets/wechat.png">WeChat & RedNote</a>
+        </a>&nbsp&nbsp📑 <a href="https://arxiv.org/abs/2601.14352">2.5 Technical Report</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://arxiv.org/abs/2507.02029"> 2.0 Technical Report</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="./assets/wechat.png">WeChat & RedNote</a>
 </p>
 
 </p>
