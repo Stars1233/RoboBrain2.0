@@ -5,7 +5,7 @@
 <h1 align="center">RoboBrain 2.5: Depth in Sight, Time in Mind. </h1>
 
 <p align="center">
-        </a>&nbsp&nbsp⭐️ <a href="https://superrobobrain.github.io/">Project Page</a></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/collections/BAAI/robobrain25/">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="#">ModelScope</a>&nbsp&nbsp 
+        </a>&nbsp&nbsp⭐️ <a href="https://superrobobrain.github.io/">Project Page</a></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/collections/BAAI/robobrain25/">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://www.modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV">ModelScope</a>&nbsp&nbsp 
 
 </p>
 <p align="center">
