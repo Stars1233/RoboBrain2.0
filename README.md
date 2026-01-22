@@ -38,14 +38,10 @@
 </div>
 
 ## 🔥 Overview
-**RoboBrain-2.5** is a next-generation Embodied AI foundation model that significantly evolves its predecessor's core capabilities in general perception, spatial reasoning, and temporal modeling through extensive training on high-quality spatiotemporal data. It achieves a paradigm shift in 3D Spatial Reasoning, transitioning from 2D relative points to predicting 3D coordinates with depth information, understanding absolute metric constraints, and generating complete manipulation trajectories tailored for complex tasks with physical constraints. Furthermore, it establishes a breakthrough in Temporal Value Prediction by constructing a General Reward Modeling Method that provides dense progress tracking and multi-granular execution state estimation across varying viewpoints. This empowers VLA reinforcement learning with immediate, dense feedback signals, enabling robots to achieve high task success rates and robustness in fine-grained manipulation scenarios.
+**RoboBrain-2.5** is a next-generation embodied AI foundation model that advances general perception, spatial reasoning, and temporal modeling through extensive training on high-quality spatiotemporal supervision. Building upon its predecessor, RoboBrain 2.5 introduces two major capability upgrades. Specifically, it unlocks **Precise 3D Spatial Reasoning** by shifting from 2D pixel-relative grounding to depth-aware coordinate prediction and absolute metric constraint comprehension, generating complete 3D manipulation traces as ordered keypoint sequences under physical constraints. Complementing this spatial precision, the model establishes **Dense Temporal Value Estimation** that provides dense, step-aware progress prediction and execution state understanding across varying viewpoints, producing stable feedback signals for downstream learning. Together, these upgrades extend the framework toward more physically grounded and execution-aware embodied intelligence for complex, fine-grained manipulation. 
 
 <div align="center">
-<img src="./assets/rb25_feature.png" />
-</div>
-
-<div align="center">
-<img src="./assets/rb25_result.png" />
+<img src="./assets/teasor.png" />
 </div>
 
 ---
@@ -84,7 +80,7 @@ In particular, it supports key real-world embodied intelligence capabilities, in
 
 ## 🚀 Key Highlights
 
-### 1. Comprehensive Upgrade in ✨ Native 3D Spatial Reasoning ✨ 
+### 1. Comprehensive Upgrade in ✨ Percise 3D Spatial Reasoning ✨ 
 Compared to version 2.0, **RoboBrain-2.5** achieves a leap in spatial perception and reasoning capabilities:
 *   **From 2D to 3D:** Upgraded from predicting coordinate points on 2D images to predicting coordinate points with depth information in **3D space** (3D Spatial Referring).
 *   **Relative to Absolute:** Evolved from understanding relative spatial relationships to measuring **absolute 3D spatial metric information** (3D Spatial Measuring). The model can comprehend precise physical constraint instructions (e.g., "hovering 1-5 cm above").
