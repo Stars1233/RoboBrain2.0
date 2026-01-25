@@ -275,7 +275,7 @@ print(f"Episode ({BASE_DEMO_PATH}) processed with Incremental-Mode. Output at: {
 
 We adopted the distributed training framework [FlagScale](https://github.com/FlagOpen/FlagScale) developed by the ***Framework R&D team of BAAI*** for training. The training can be launched in the following steps:
 
-You can refer to the [QuickStart.md](https://github.com/flagos-ai/FlagScale/blob/main/docs/getting-started.md) to train the base instruct model or finetune the RoboBrain2.5.
+You can refer to the [QuickStart.md](https://github.com/flagos-ai/FlagScale/blob/main/docs/robo.md) to train the base instruct model or finetune the RoboBrain2.5.
 
 ### Option 2: For DeepSpeed User
 
@@ -335,6 +335,7 @@ If you find this project useful, welcome to cite us.
     year={2025}
 }
 ```
+
 
 
 
