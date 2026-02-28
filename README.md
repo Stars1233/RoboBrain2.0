@@ -54,6 +54,7 @@ In particular, it supports key real-world embodied intelligence capabilities, in
 </div>
 
 ## 🗞️ News
+- **`2026-03-01`**: 🤗 [RoboBrain 2.5-4B](https://huggingface.co/BAAI/RoboBrain2.5-4B) model checkpoint has been released in Huggingface.
 - **`2026-01-09`**: 🤗 We released the **RoboBrain 2.5-8B** checkpoints on Hugging Face: [RoboBrain 2.5-8B-NV](https://huggingface.co/BAAI/RoboBrain2.5-8B-NV) and [RoboBrain 2.5-8B-MT](https://huggingface.co/BAAI/RoboBrain2.5-8B-MT). The two variants share the same architecture and training data with similar performance, but were trained on different clusters: ***NV*** on NVIDIA GPU cluster, and ***MT*** on Moore-Threads GPU cluster.
 - **`2025-12-30`**: 🔥 We released [**Robo-Dopamine**](https://robo-dopamine.github.io/), a deep research on Dense Temperal Value Estimation Capability for **RoboBrain 2.5**.
 - **`2025-12-16`**: 🔥 We released [**RoboTracer**](https://zhoues.github.io/RoboTracer/), a deep research on Native 3D Spatial Reasoning for **RoboBrain 2.5**.
@@ -75,7 +76,7 @@ In particular, it supports key real-world embodied intelligence capabilities, in
 - [x] Release model checkpoint for RoboBrain 2.0-32B
 - [x] Release quick inference example for RoboBrain 2.0
 - [x] Release training and evaluation codes for RoboBrain 2.0
-- [ ] Release model checkpoint for RoboBrain 2.5-3B
+- [x] Release model checkpoint for RoboBrain 2.5-4B
 - [x] Release model checkpoint for RoboBrain 2.5-8B
 - [ ] Release model checkpoint for RoboBrain 2.5-32B
 
@@ -109,6 +110,7 @@ Compared to version 2.0, **RoboBrain-2.5** achieves a leap in spatial perception
 | RoboBrain 2.0 3B     | [🤗 BAAI/RoboBrain2.0-3B](https://huggingface.co/BAAI/RoboBrain2.0-3B)   | 3B parameter version of the RoboBrain2.0                 | 
 | RoboBrain 2.0 7B     | [🤗 BAAI/RoboBrain2.0-7B](https://huggingface.co/BAAI/RoboBrain2.0-7B)   | 7B parameter version of the RoboBrain2.0                 | 
 | RoboBrain 2.0 32B    | [🤗 BAAI/RoboBrain2.0-32B](https://huggingface.co/BAAI/RoboBrain2.0-32B) | 32B parameter version of the RoboBrain2.0                |
+| RoboBrain 2.5 4B     | [🤗 BAAI/RoboBrain2.5-4B 🔥](https://huggingface.co/BAAI/RoboBrain2.5-4B)   | 4B parameter version of the RoboBrain2.5   
 | RoboBrain 2.5 8B     | [🤗 BAAI/RoboBrain2.5-8B-NV](https://huggingface.co/BAAI/RoboBrain2.5-8B-NV)   | 8B parameter version of the RoboBrain2.5    
 | RoboBrain 2.5 8B     | [🤗 BAAI/RoboBrain2.5-8B-MT](https://huggingface.co/BAAI/RoboBrain2.5-8B-MT)   | 8B parameter version of the RoboBrain2.5     
 
